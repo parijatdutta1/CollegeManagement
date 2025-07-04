@@ -1,0 +1,138 @@
+/* Global Styles */
+body {
+    font-family: 'Inter', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f7fafc;
+    /* color: #333; */
+}
+
+main {
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+main h2 {
+    text-align: center;
+    color: #004080;
+    font-size: 2em;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.map {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.map img {
+    max-width: 100%;
+    height: auto;
+    border: 2px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 10px;
+    background: #fff;
+}
+
+.success-stories {
+    margin-top: 30px;
+}
+
+.success-stories h3 {
+    color: #004080;
+    font-size: 1.5em;
+    margin-bottom: 20px;
+}
+
+.success-stories .story {
+    display: flex;
+    align-items: flex-start;
+    background: #fff;
+    margin-bottom: 15px;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.success-stories .story:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+}
+
+.success-stories .story img {
+    max-width: 100px;
+    height: auto;
+    border-radius: 10px;
+    margin-right: 15px;
+    border: 2px solid #004080;
+}
+
+.success-stories .story-content {
+    flex: 1;
+}
+
+.success-stories .story-content h3 {
+    color: #004080;
+    margin: 0 0 10px;
+    font-size: 1.2em;
+}
+
+.success-stories .story-content p {
+    margin: 0;
+    font-size: 1em;
+    color: #555;
+}
+
+.inquiry-form {
+    margin-top: 30px;
+    background: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.inquiry-form h3 {
+    color: #004080;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.inquiry-form form input,
+.inquiry-form form textarea,
+.inquiry-form form button {
+    width: 100%;
+    margin-bottom: 15px;
+    padding: 10px;
+    font-size: 1em;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.inquiry-form form input:focus,
+.inquiry-form form textarea:focus {
+    outline: none;
+    border-color: #0073e6;
+    box-shadow: 0 0 5px rgba(0, 115, 230, 0.5);
+}
+
+.inquiry-form form button {
+    background: #004080;
+    color: #fff;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+.inquiry-form form button:hover {
+    background: #0073e6;
+}
+
+

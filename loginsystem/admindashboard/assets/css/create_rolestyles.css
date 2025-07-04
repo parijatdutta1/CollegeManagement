@@ -1,0 +1,60 @@
+
+        
+        /* Form Container */
+        .form-container {
+            margin: 50px auto;
+            
+
+            background: #ffffff;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            max-width: 400px;
+            text-align: center;
+        }
+        .form-container h2 {
+            font-size: 24px;
+            margin-bottom: 20px;
+            color: #333333;
+        }
+        .form-container label {
+            display: block;
+            font-weight: bold;
+            text-align: left;
+            margin-bottom: 5px;
+            color: #555555;
+        }
+        .form-container input,
+        .form-container select {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 20px;
+            border: 1px solid #cccccc;
+            border-radius: 5px;
+            font-size: 16px;
+        }
+        .form-container select {
+            appearance: none;
+            background: #f9f9f9 url('data:image/svg+xml,%3Csvg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="%23000000"%3E%3Cpath fill-rule="evenodd" d="M5.23 7.21a.75.75 0 011.06.02L10 10.94l3.71-3.71a.75.75 0 111.06 1.06l-4 4a.75.75 0 01-1.06 0l-4-4a.75.75 0 01.02-1.06z" clip-rule="evenodd"/%3E%3C/svg%3E') no-repeat right 10px center;
+            background-size: 16px;
+        }
+        .form-container select:focus {
+            border-color: #007bff;
+            outline: none;
+        }
+        .form-container button {
+            width: 100%;
+            padding: 10px;
+            font-size: 16px;
+            font-weight: bold;
+            color: #ffffff;
+            background-color: #007bff;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+        .form-container button:hover {
+            background-color: #0056b3;
+        }
+    

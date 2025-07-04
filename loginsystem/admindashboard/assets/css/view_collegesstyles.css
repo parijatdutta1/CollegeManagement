@@ -1,0 +1,137 @@
+
+        /* Global Styles */
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #f4f6f9;
+            margin: 0;
+            padding: 0;
+            color: #2c3e50;
+        }
+
+        /* Container Styling */
+        .container {
+            max-width: 1200px;
+            margin: 50px auto;
+            padding: 20px 30px;
+            background-color: #ffffff;
+
+        }
+
+        .header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 20px;
+        }
+
+        .header h2 {
+            font-size: 28px;
+            color: #34495e;
+            font-weight: bold;
+            margin: 0;
+        }
+
+        /* Search Bar Styling */
+        .search-container {
+            position: relative;
+            margin-right: 50px;
+            width: 100%;
+            max-width: 250px;
+        }
+
+        .search-container input {
+            width: 100%;
+            padding: 12px 15px 12px 40px;
+            font-size: 16px;
+            border: 1px solid #ccc;
+            border-radius: 25px;
+            outline: none;
+            background-color: #f9f9f9;
+            transition: all 0.3s ease;
+        }
+
+        .search-container input:focus {
+            border-color: #3498db;
+            background-color: #ffffff;
+            box-shadow: 0 0 8px rgba(52, 152, 219, 0.3);
+        }
+
+        .search-container .search-icon {
+            position: absolute;
+            top: 50%;
+            left: 15px;
+            transform: translateY(-50%);
+            font-size: 18px;
+            color: #888;
+        }
+
+        /* Table Styling */
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 10px;
+            font-size: 16px;
+            background-color: #ffffff;
+        }
+
+        thead th {
+            background-color: #3498db;
+            color: #ffffff;
+            text-align: left;
+            padding: 15px;
+            border: 1px solid #ddd;
+        }
+
+        tbody tr {
+            border: 1px solid #ddd;
+            transition: all 0.2s ease;
+        }
+
+        tbody tr:nth-child(even) {
+            background-color: #f7f9fc;
+        }
+
+        tbody tr:hover {
+            background-color: #eaf2fb;
+        }
+
+        tbody td {
+            padding: 12px 15px;
+            border: 1px solid #ddd;
+        }
+
+        /* Responsive Design */
+        @media (max-width: 768px) {
+            table {
+                font-size: 14px;
+            }
+
+            thead th, tbody td {
+                padding: 10px;
+            }
+
+            .header {
+                flex-direction: column;
+                align-items: flex-start;
+                gap: 15px;
+            }
+
+            .header h2 {
+                font-size: 24px;
+            }
+
+            .search-container {
+                max-width: 100%;
+            }
+        }
+
+        @media (max-width: 480px) {
+            table {
+                font-size: 12px;
+            }
+
+            .container {
+                padding: 15px;
+            }
+        }
+ 

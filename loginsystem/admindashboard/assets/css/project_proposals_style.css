@@ -1,0 +1,92 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f9;
+    color: #333;
+}
+
+/* Container */
+.pp-container {
+    max-width: 1200px;
+    margin: 30px auto;
+    padding: 20px;
+    background: #ffffff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+.pp-container h2 {
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: #007bff;
+}
+
+/* Table Styles */
+.pp-table-container {
+    overflow-x: auto;
+}
+
+.pp-table {
+    width: 100%;
+    border-collapse: collapse;
+    border-radius: 8px;
+    overflow: hidden;
+    margin: 0 auto;
+}
+
+.pp-table th,
+.pp-table td {
+    padding: 12px;
+    text-align: center;
+}
+
+.pp-table th {
+    background-color: #007bff;
+    color: white;
+    font-weight: bold;
+}
+
+.pp-table td {
+    border-bottom: 1px solid #ddd;
+}
+
+.pp-table tr:hover {
+    background-color: #f5f5f5;
+}
+
+/* Download Button */
+.btn-download {
+    background-color: #6a11cb;
+    color: white;
+    padding: 8px 16px;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background 0.3s ease;
+}
+
+.btn-download:hover {
+    background-color: #4b0ca1;
+}
+
+/* No Data Row */
+.no-data {
+    text-align: center;
+    padding: 20px;
+    color: #777;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .pp-table th,
+    .pp-table td {
+        padding: 8px;
+        font-size: 14px;
+    }
+
+    .btn-download {
+        padding: 6px 12px;
+        font-size: 14px;
+    }
+}

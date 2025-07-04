@@ -1,0 +1,86 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(135deg, #667eea, #764ba2);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.profile-container {
+    background: white;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+    width: 400px;
+    text-align: left;
+    transition: all 0.3s ease-in-out;
+}
+
+.edit-field {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 15px 0;
+    padding: 10px;
+    background: #f4f4f9;
+    border-radius: 8px;
+    position: relative;
+}
+
+.edit-field span {
+    font-size: 0.9em;
+    font-weight: bold;
+    color: #666;
+    flex: 1;
+}
+
+.edit-field label {
+    font-size: 1em;
+    font-weight: 500;
+    color: #333;
+    flex: 2;
+    cursor: pointer;
+}
+
+.edit-field input {
+    flex: 2;
+    padding: 8px;
+    font-size: 1em;
+    border: none;
+    border-radius: 5px;
+    background: transparent;
+    outline: none;
+    width: 100%;
+    display: none;
+}
+
+.edit-icon {
+    color: #4CAF50;
+    cursor: pointer;
+    transition: color 0.3s ease-in-out;
+    margin-left: 10px;
+}
+
+.edit-icon:hover {
+    color: #3a8b3a;
+}
+
+.update-btn {
+    background: #4CAF50;
+    color: white;
+    padding: 12px;
+    width: 100%;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 1em;
+    font-weight: bold;
+    margin-top: 20px;
+    transition: all 0.3s ease-in-out;
+}
+
+.update-btn:hover {
+    background: #3a8b3a;
+}

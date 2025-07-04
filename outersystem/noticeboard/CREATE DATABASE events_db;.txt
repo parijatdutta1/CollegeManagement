@@ -1,0 +1,10 @@
+CREATE DATABASE events_db;
+
+USE events_db;
+
+CREATE TABLE events (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    date DATE NOT NULL,
+    title VARCHAR(255) NOT NULL,
+    description TEXT NOT NULL
+);

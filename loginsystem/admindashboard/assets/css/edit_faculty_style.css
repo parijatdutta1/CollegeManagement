@@ -1,0 +1,143 @@
+body {
+    font-family: 'Roboto', Arial, sans-serif;
+    background-color: #f7f8fc;
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+.container {
+    max-width: 1000px;
+    margin: 40px auto;
+    padding: 20px;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+.form-container {
+    text-align: center;
+    margin-bottom: 30px;
+}
+.form-container h2 {
+    font-size: 26px;
+    color: #2c3e50;
+    margin-bottom: 10px;
+}
+.form-container p {
+    font-size: 14px;
+    color: #7f8c8d;
+    margin-bottom: 20px;
+}
+.form-container .input-group {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+.form-input {
+    padding: 12px 15px;
+    width: 260px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    transition: border 0.3s ease;
+}
+.form-input:focus {
+    outline: none;
+    border-color: #007bff;
+}
+.form-button {
+    padding: 12px 20px;
+    font-size: 16px;
+    color: #fff;
+    background-color: #007bff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+.form-button:hover {
+    background-color: #0056b3;
+}
+h2 {
+    color: #2c3e50;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+.search-container {
+    text-align: center;
+    margin: 20px 0;
+}
+.search-container input {
+    width: 260px;
+    padding: 10px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+.search-container input:focus {
+    outline: none;
+    border-color: #007bff;
+}
+#noIdMessage {
+    color: red;
+    font-size: 16px;
+    text-align: center;
+    margin-top: 20px;
+    display: none;
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    border-radius: 8px;
+    overflow: hidden;
+}
+thead th {
+    background-color: #007bff;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 14px;
+    padding: 12px;
+    text-align: left;
+}
+tbody td {
+    padding: 12px;
+    font-size: 14px;
+    border-bottom: 1px solid #eaeaea;
+}
+tbody tr:last-child td {
+    border-bottom: none;
+}
+tbody tr:hover {
+    background-color: #f5faff;
+}
+.action-icons {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+}
+.action-icons button {
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+.action-icons img {
+    width: 20px;
+    height: 20px;
+}
+.no-data {
+    text-align: center;
+    color: #888;
+    font-size: 16px;
+    margin-top: 20px;
+}
+.action-input {
+    border: 1px solid #ccc;
+    padding: 8px 10px;
+    font-size: 14px;
+    border-radius: 5px;
+    width: 100%;
+}
+.action-input:focus {
+    outline: none;
+    border-color: #007bff;
+}
