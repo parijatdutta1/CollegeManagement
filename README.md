@@ -76,7 +76,7 @@ A role-based, secure, and dynamic **College Management Portal** developed using 
 
 **Parijat Dutta**  
 🌐 [Portfolio](https://parijat-dutta-portfolio.netlify.app)  
-📧 parijatdutta01@gmail.com
+📧 parijatdutta100@gmail.com
 
 ---
 
