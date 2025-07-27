@@ -1,9 +1,9 @@
 <?php
 // Load environment variables (make sure to set these in your .env file)
-$host = getenv('DB_HOST') ?: "sql203.infinityfree.com";
-$user = getenv('DB_USER') ?: "if0_38271752";
-$password = getenv('DB_PASS') ?: "JISRANDD0978";
-$dbname = getenv('DB_NAME') ?: "if0_38271752_test";
+$host = getenv('DB_HOST') ?: "..";
+$user = getenv('DB_USER') ?: "..";
+$password = getenv('DB_PASS') ?: "..";
+$dbname = getenv('DB_NAME') ?: "..";
 
 // Enable error reporting for debugging (Disable in production)
 error_reporting(0);
