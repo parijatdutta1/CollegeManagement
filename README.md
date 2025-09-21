@@ -17,7 +17,10 @@
 A role-based, secure, and dynamic **College Management Portal** developed using **Core PHP**. This system provides a centralized platform for Students, Faculty, Principals, and Investors to interact with personalized data and workflows.
 
 > 🔗 Live: [https://jistesting.lovestoblog.com](https://jistesting.lovestoblog.com)
-
+> Credentials :
+ - Administrator :
+    -Demoadmin@gmail.com
+    -12345678 
 ---
 
 ## 🔑 Key Features
